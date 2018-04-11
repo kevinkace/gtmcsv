@@ -1,6 +1,7 @@
 "use strict";
 
 const fs = require("fs");
+const path = require("path");
 const util = require("util");
 const rfp = util.promisify(fs.readFile);
 const wfp = util.promisify(fs.writeFile);
@@ -8,10 +9,14 @@ const wfp = util.promisify(fs.writeFile);
 const glob = require("glob-promise");
 const csv = require("csv-string");
 
+let files;
+
 glob("./data/*.json")
-    .then((files) =>
-        Promise.all(files.map((file) => rfp(file, "utf8")))
-    )
+    .then((f) => {
+        files = f;
+
+        return Promise.all(f.map((file) => rfp(file, "utf8")));
+    })
     .then((fileDatas) => {
         // let csvArr =
         return fileDatas.map((fileData) => ({
@@ -69,7 +74,9 @@ glob("./data/*.json")
         return dataObjs;
     })
     .then((dataObjs) =>
-        Promise.all(dataObjs.map((dataObj, idx) =>
-            wfp(`./file-${idx}.csv`, csv.stringify(dataObj.csv))
-        ))
+        Promise.all(dataObjs.map((dataObj, idx) => {
+            const base = `${path.parse(files[idx]).name}.csv`;
+
+            return wfp(`./csv/${base}`, csv.stringify(dataObj.csv))
+        }))
     );
