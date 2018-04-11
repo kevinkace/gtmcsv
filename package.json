@@ -11,7 +11,43 @@
   "license": "ISC",
   "dependencies": {
     "csv-string": "^3.1.2",
+    "eslint": "^4.19.1",
     "glob": "^7.1.2",
     "glob-promise": "^3.4.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "eol-last": [
+        "error",
+        "always"
+      ],
+      "no-console": 0,
+      "radix": [
+        "warn",
+        "always"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "args": "after-used",
+          "ignoreRestSiblings": false
+        }
+      ]
+    }
   }
 }

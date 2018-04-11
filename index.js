@@ -15,7 +15,7 @@ glob("./data/*.json")
     .then((fileDatas) => {
         // let csvArr =
         return fileDatas.map((fileData) => ({
-            csv : [[ "tag id", "name", "code", "triggers", "last upated" ]],
+            csv : [[ "tag id", "name", "triggers", "last updated", "code" ]],
             fileData
         }));
     })
@@ -24,28 +24,46 @@ glob("./data/*.json")
             const json = JSON.parse(dataObj.fileData);
             const tags = json.containerVersion.tag;
 
-            tags.forEach((tag) => {
-                const date = new Date(parseInt(tag.fingerprint)).toString().split(" GMT")[0];
-                let code;
+            tags
+                .sort((tagA, tagB) =>
+                    parseInt(tagA.fingerprint, 10) - parseInt(tagB.fingerprint, 10) > 0 ? -1 : 1
+                )
+                .forEach((tag) => {
+                    const date = new Date(parseInt(tag.fingerprint, 10)).toString().split(" GMT")[0];
+                    let triggers = (tag.firingTriggerId || [])
+                        .map((triggerId) => {
+                            let trigger;
 
-                tag.parameter.some((param) => {
-                    if(param.type !== "TEMPLATE") {
-                        return false;
-                    }
+                            json.containerVersion.trigger.some((trig) => {
+                                if(trig.triggerId !== triggerId) {
+                                    return false;
+                                }
 
-                    code = param.value;
+                                trigger = trig.name;
+                            });
 
-                    return true;
+                            return trigger;
+                        }).join("\n");
+                    let code;
+
+                    tag.parameter.some((param) => {
+                        if(param.type !== "TEMPLATE") {
+                            return false;
+                        }
+
+                        code = param.value;
+
+                        return true;
+                    });
+
+                    dataObj.csv.push([
+                        tag.tagId,
+                        tag.name,
+                        triggers,
+                        date,
+                        code
+                    ]);
                 });
-
-                dataObj.csv.push([
-                    tag.tagId,
-                    tag.name,
-                    code,
-                    (tag.firingTriggerId || []).join("\n"),
-                    date
-                ]);
-            });
         });
 
         return dataObjs;

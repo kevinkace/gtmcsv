@@ -1,132 +1,5 @@
-tag id,name,code,triggers,last upated
-17,Adroll DOI,"<!-- Google Code for Email Double Opt In Conversion Page -->
-<script type=""text/javascript"">
-/* <![CDATA[ */
-var google_conversion_id = 1017431242;
-var google_conversion_language = ""en"";
-var google_conversion_format = ""3"";
-var google_conversion_color = ""ffffff"";
-var google_conversion_label = ""THpiCLOgtF8QyomT5QM"";
-var google_remarketing_only = false;
-/* ]]> */
-</script>
-<script type=""text/javascript"" src=""//www.googleadservices.com/pagead/conversion.js"">
-</script>
-<noscript>
-<div style=""display:inline;"">
-<img height=""1"" width=""1"" style=""border-style:none;"" alt="""" src=""//www.googleadservices.com/pagead/conversion/1017431242/?label=THpiCLOgtF8QyomT5QM&amp;guid=ON&amp;script=0""/>
-</div>
-</noscript>",11,Thu May 11 2017 17:16:34
-7,CID,"<script src=""https://static.staticwars.com/cid/4/cid-min.js""></script>",7,Wed Aug 05 2015 14:46:03
-20,Facebook Confirmation - Ayzenberg,"<script>
-fbq('track', 'CompleteRegistration', {
-value: 0.00,
-currency: 'USD'
-});
-</script>
-",8,Fri Dec 23 2016 13:21:28
-21,Facebook Confirmation - Target,"<script>
-fbq('track', 'CompleteRegistration', {
-value: 0.00,
-currency: 'USD'
-});
-</script>
-",8,Fri Dec 23 2016 13:22:02
-18,Facebook Tracking - Ayzenberg,"<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '211960499138822'); // Insert your pixel ID here.
-fbq('track', 'PageView');
-</script>
-<noscript><img height=""1"" width=""1"" style=""display:none""
-src=""https://www.facebook.com/tr?id=211960499138822&ev=PageView&noscript=1""
-/></noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
-","9
-25",Thu Apr 20 2017 12:48:56
-19,Facebook Tracking - Target,"<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1762716360654031'); 
-fbq('track', 'PageView');
-</script>
-<noscript>
-<img height=""1"" width=""1"" 
-src=""https://www.facebook.com/tr?id=1762716360654031&ev=PageView
-&noscript=1""/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-","9
-25",Thu Apr 20 2017 12:49:05
-4,GA Event Trigger,{{gaEventCategory}},3,Tue Jun 16 2015 13:45:41
-3,Google Retargeting,//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017431242/?value=0&amp;guid=ON&amp;script=0,"5
-2",Tue Jun 16 2015 15:07:24
-2,LP Retargeting,"<script>
-    var ebRand = Math.random() + """",
-        iframe = document.createElement(""iframe"");
-
-    ebRand = ebRand * 1000000;
-
-    iframe.src = ""HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=364988&amp;ifrm=1&amp;rnd="" + ebRand;
-    iframe.setAttribute(""scrolling"", ""no"");
-    iframe.setAttribute(""frameborder"", ""0"");
-    iframe.setAttribute(""width"", ""0"");
-    iframe.setAttribute(""height"", ""0"");
-
-    document.body.appendChild(iframe);
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=364988&amp;ns=1""/>
-</noscript>","5
-2",Tue Jun 16 2015 15:13:18
-5,LW Branding Exclusion,//d.adroll.com/ipixel/DCNZ5EPJOZHFDKQ5IJRKIL/J6AQ3YI6VZEP3MIIEVUV26?name=quiz,6,Tue Jun 16 2015 20:22:59
-12,"P4F - 2 Step, Code - Funnel Tracking","<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665455&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665455&amp;ns=1""/>
-</noscript>",13,Tue Aug 25 2015 18:47:52
-11,"P4F - 2 Step, Enter Phone Number - Funnel Tracking","<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665454&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665454&amp;ns=1""/>
-</noscript>",12,Tue Aug 25 2015 18:48:12
-13,"P4F - 2 Step, Phone Verified - Funnel Tracking","<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665457&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665457&amp;ns=1""/>
-</noscript>",14,Tue Aug 25 2015 18:49:27
-26,P4F - AdRoll 2,J6AQ3YI6VZEP3MIIEVUV26,9,Tue Sep 05 2017 13:02:08
-15,P4F - Download - Funnel Tracking,"<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665458&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665458&amp;ns=1""/>
-</noscript>",15,Wed Aug 26 2015 15:12:23
-23,P4F - Email Verified - CPMStar,//server.cpmstar.com/action.aspx?advertiserid=1670&gif=1,11,Mon Apr 24 2017 10:43:07
-29,P4F - Email Verified - Funnel Tracking,"<script type='text/javascript'>
+tag id,name,triggers,last updated,code
+29,P4F - Email Verified - Funnel Tracking,P4F Email Verified,Tue Jan 23 2018 11:04:45,"<script type='text/javascript'>
 var ebRand = Math.random()+'';
 ebRand = ebRand * 1000000;
 document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665453&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
@@ -134,55 +7,12 @@ document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.
 <noscript>
 <img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665453&amp;ns=1""/>
 </noscript>
-",11,Tue Jan 23 2018 11:04:45
-16,P4F - Email Verified - HasOffers,"<script>
-    var iframe = document.createElement(""iframe""),
-        userid = ""none"";
-
-    window.location.search.substring(1).split(""&"").forEach(function(param) {
-        var keyvalue = param.split(""="");
-        if(keyvalue[0] === ""userid"") {
-            userid = keyvalue[1];
-        }
-    });
-
-    iframe.src = ""https://guildwars2.go2cloud.org/aff_l?offer_id=19&adv_sub="" + userid;
-    iframe.setAttribute(""scrolling"", ""no"");
-    iframe.setAttribute(""frameborder"", ""0"");
-    iframe.setAttribute(""width"", ""1"");
-    iframe.setAttribute(""height"", ""1"");
-
-    document.body.appendChild(iframe);
-</script>",11,Fri Aug 28 2015 17:55:49
-8,P4F - Landing Page - Funnel Tracking,"<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665451&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665451&amp;ns=1""/>
-</noscript>","9
-25",Thu Apr 20 2017 12:49:45
-9,P4F - Register Verified - Funnel Tracking,"<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665452&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665452&amp;ns=1""/>
-</noscript>",8,Tue May 16 2017 14:37:40
-22,P4F - Sizmek confirmation,"<script type='text/javascript'>
-var ebRand = Math.random()+'';
-ebRand = ebRand * 1000000;
-//<![CDATA[ 
-document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665453&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
-//]]>
-</script>
-<noscript>
-<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665453&amp;ns=1""/>
-</noscript>
-",,Wed Apr 19 2017 11:58:42
-25,P4F- AdRoll confirm,"<script type=""text/javascript"">
+"
+27,Upsellit - Abandonment reporting,P4F Registration Page,Thu Nov 30 2017 10:40:13,"<script type=""text/javascript"">
+usi_installed = 0; USI_installCode = function() { if (usi_installed == 0) { usi_installed = 1; var USI_headID = document.getElementsByTagName(""head"")[0]; var USI_installID = document.createElement('script'); USI_installID.type = 'text/javascript'; USI_installID.src = '//www.upsellit.com/active/guildwars2.jsp'; USI_headID.appendChild(USI_installID); } }; if (typeof(document.readyState) != ""undefined"" && document.readyState === ""complete"") { USI_installCode(); } else if (window.addEventListener){ window.addEventListener('load', USI_installCode, true); } else if (window.attachEvent) { window.attachEvent('onload', USI_installCode); } else { USI_installCode(); } setTimeout(""USI_installCode()"", 10000);
+</script>"
+26,P4F - AdRoll 2,P4F Registration Page,Tue Sep 05 2017 13:02:08,J6AQ3YI6VZEP3MIIEVUV26
+25,P4F- AdRoll confirm,,Thu Aug 31 2017 13:18:22,"<script type=""text/javascript"">
     adroll_adv_id = ""DCNZ5EPJOZHFDKQ5IJRKIL"";
     adroll_pix_id = ""J6AQ3YI6VZEP3MIIEVUV26"";
     /* OPTIONAL: provide email to improve user identification */
@@ -202,13 +32,134 @@ document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.
         if (window.addEventListener) {window.addEventListener('load', _onload, false);}
         else {window.attachEvent('onload', _onload)}
     }());
-</script>",,Thu Aug 31 2017 13:18:22
-1,Page View,TRACK_PAGEVIEW,4,Tue Jun 16 2015 15:14:40
-6,Remarketing - AdWords,https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1017431242/?value=0&label=zO4CCJa_4AQQyomT5QM&guid=ON&script=0,6,Tue Jun 16 2015 20:24:08
-27,Upsellit - Abandonment reporting,"<script type=""text/javascript"">
-usi_installed = 0; USI_installCode = function() { if (usi_installed == 0) { usi_installed = 1; var USI_headID = document.getElementsByTagName(""head"")[0]; var USI_installID = document.createElement('script'); USI_installID.type = 'text/javascript'; USI_installID.src = '//www.upsellit.com/active/guildwars2.jsp'; USI_headID.appendChild(USI_installID); } }; if (typeof(document.readyState) != ""undefined"" && document.readyState === ""complete"") { USI_installCode(); } else if (window.addEventListener){ window.addEventListener('load', USI_installCode, true); } else if (window.attachEvent) { window.attachEvent('onload', USI_installCode); } else { USI_installCode(); } setTimeout(""USI_installCode()"", 10000);
-</script>",9,Thu Nov 30 2017 10:40:13
-14,Versa Tag,"<script>
+</script>"
+9,P4F - Register Verified - Funnel Tracking,P4F Registration Complete,Tue May 16 2017 14:37:40,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665452&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665452&amp;ns=1""/>
+</noscript>"
+17,Adroll DOI,P4F Email Verified,Thu May 11 2017 17:16:34,"<!-- Google Code for Email Double Opt In Conversion Page -->
+<script type=""text/javascript"">
+/* <![CDATA[ */
+var google_conversion_id = 1017431242;
+var google_conversion_language = ""en"";
+var google_conversion_format = ""3"";
+var google_conversion_color = ""ffffff"";
+var google_conversion_label = ""THpiCLOgtF8QyomT5QM"";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type=""text/javascript"" src=""//www.googleadservices.com/pagead/conversion.js"">
+</script>
+<noscript>
+<div style=""display:inline;"">
+<img height=""1"" width=""1"" style=""border-style:none;"" alt="""" src=""//www.googleadservices.com/pagead/conversion/1017431242/?label=THpiCLOgtF8QyomT5QM&amp;guid=ON&amp;script=0""/>
+</div>
+</noscript>"
+23,P4F - Email Verified - CPMStar,P4F Email Verified,Mon Apr 24 2017 10:43:07,//server.cpmstar.com/action.aspx?advertiserid=1670&gif=1
+8,P4F - Landing Page - Funnel Tracking,"P4F Registration Page
+P4F Registration Page - dataLayer",Thu Apr 20 2017 12:49:45,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665451&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665451&amp;ns=1""/>
+</noscript>"
+19,Facebook Tracking - Target,"P4F Registration Page
+P4F Registration Page - dataLayer",Thu Apr 20 2017 12:49:05,"<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1762716360654031'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height=""1"" width=""1"" 
+src=""https://www.facebook.com/tr?id=1762716360654031&ev=PageView
+&noscript=1""/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+"
+18,Facebook Tracking - Ayzenberg,"P4F Registration Page
+P4F Registration Page - dataLayer",Thu Apr 20 2017 12:48:56,"<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '211960499138822'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height=""1"" width=""1"" style=""display:none""
+src=""https://www.facebook.com/tr?id=211960499138822&ev=PageView&noscript=1""
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+"
+22,P4F - Sizmek confirmation,,Wed Apr 19 2017 11:58:42,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+//<![CDATA[ 
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665453&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+//]]>
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665453&amp;ns=1""/>
+</noscript>
+"
+21,Facebook Confirmation - Target,P4F Registration Complete,Fri Dec 23 2016 13:22:02,"<script>
+fbq('track', 'CompleteRegistration', {
+value: 0.00,
+currency: 'USD'
+});
+</script>
+"
+20,Facebook Confirmation - Ayzenberg,P4F Registration Complete,Fri Dec 23 2016 13:21:28,"<script>
+fbq('track', 'CompleteRegistration', {
+value: 0.00,
+currency: 'USD'
+});
+</script>
+"
+16,P4F - Email Verified - HasOffers,P4F Email Verified,Fri Aug 28 2015 17:55:49,"<script>
+    var iframe = document.createElement(""iframe""),
+        userid = ""none"";
+
+    window.location.search.substring(1).split(""&"").forEach(function(param) {
+        var keyvalue = param.split(""="");
+        if(keyvalue[0] === ""userid"") {
+            userid = keyvalue[1];
+        }
+    });
+
+    iframe.src = ""https://guildwars2.go2cloud.org/aff_l?offer_id=19&adv_sub="" + userid;
+    iframe.setAttribute(""scrolling"", ""no"");
+    iframe.setAttribute(""frameborder"", ""0"");
+    iframe.setAttribute(""width"", ""1"");
+    iframe.setAttribute(""height"", ""1"");
+
+    document.body.appendChild(iframe);
+</script>"
+15,P4F - Download - Funnel Tracking,P4F Download,Wed Aug 26 2015 15:12:23,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665458&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665458&amp;ns=1""/>
+</noscript>"
+14,Versa Tag,,Tue Aug 25 2015 18:56:18,"<script>
 var versaTag = {};
 versaTag.id = ""585"";
 versaTag.sync = 0;
@@ -239,4 +190,53 @@ retargetingValues=$$$$&amp;
 dynamicRetargetingValues=$$$$&amp;
 acp=$$$$&amp;""
 style=""display:none;width:0px;height:0px""></iframe>
-</noscript>",2147479553,Tue Aug 25 2015 18:56:18
+</noscript>"
+13,"P4F - 2 Step, Phone Verified - Funnel Tracking",P4F Phone Verified,Tue Aug 25 2015 18:49:27,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665457&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665457&amp;ns=1""/>
+</noscript>"
+11,"P4F - 2 Step, Enter Phone Number - Funnel Tracking",P4F Phone Number,Tue Aug 25 2015 18:48:12,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665454&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665454&amp;ns=1""/>
+</noscript>"
+12,"P4F - 2 Step, Code - Funnel Tracking",P4F Phone Code,Tue Aug 25 2015 18:47:52,"<script type='text/javascript'>
+var ebRand = Math.random()+'';
+ebRand = ebRand * 1000000;
+document.write('<iframe src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665455&amp;ifrm=1&amp;rnd=' + ebRand + '"" width=0 height=0 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no bordercolor=""#000000""></iframe>');
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/Serving/ActivityServer.bs?cn=as&amp;ActivityID=665455&amp;ns=1""/>
+</noscript>"
+7,CID,"CID Page, ready to load CID script - x-domain",Wed Aug 05 2015 14:46:03,"<script src=""https://static.staticwars.com/cid/4/cid-min.js""></script>"
+6,Remarketing - AdWords,Logged in,Tue Jun 16 2015 20:24:08,https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1017431242/?value=0&label=zO4CCJa_4AQQyomT5QM&guid=ON&script=0
+5,LW Branding Exclusion,Logged in,Tue Jun 16 2015 20:22:59,//d.adroll.com/ipixel/DCNZ5EPJOZHFDKQ5IJRKIL/J6AQ3YI6VZEP3MIIEVUV26?name=quiz
+1,Page View,Page View,Tue Jun 16 2015 15:14:40,TRACK_PAGEVIEW
+2,LP Retargeting,"HOT key added to existing account
+HOT Registration Complete",Tue Jun 16 2015 15:13:18,"<script>
+    var ebRand = Math.random() + """",
+        iframe = document.createElement(""iframe"");
+
+    ebRand = ebRand * 1000000;
+
+    iframe.src = ""HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=364988&amp;ifrm=1&amp;rnd="" + ebRand;
+    iframe.setAttribute(""scrolling"", ""no"");
+    iframe.setAttribute(""frameborder"", ""0"");
+    iframe.setAttribute(""width"", ""0"");
+    iframe.setAttribute(""height"", ""0"");
+
+    document.body.appendChild(iframe);
+</script>
+<noscript>
+<img width=""1"" height=""1"" style=""border:0"" src=""HTTPS://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=364988&amp;ns=1""/>
+</noscript>"
+3,Google Retargeting,"HOT key added to existing account
+HOT Registration Complete",Tue Jun 16 2015 15:07:24,//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017431242/?value=0&amp;guid=ON&amp;script=0
+4,GA Event Trigger,Custom Event 'gtm-' prefix,Tue Jun 16 2015 13:45:41,{{gaEventCategory}}
