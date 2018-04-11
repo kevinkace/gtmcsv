@@ -6,6 +6,6 @@ Converts the JSON export from Google Tag Manager to CSV.
 
 - clone
 - `npm i`
-- put the JSON exports in `./data/`
+- put the JSON exports in `./data/GTM-{container id}_workspace.csv`
 - run `npm start`
-- files should be saved to `./csv/`
+- files should be saved to `./csv/GTM-{container id}_workspace.json`
