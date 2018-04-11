@@ -15,7 +15,7 @@ glob("./data/*.json")
     .then((fileDatas) => {
         // let csvArr =
         return fileDatas.map((fileData) => ({
-            csv : [[ "tag id", "name", "code", "trigger", "last upated" ]],
+            csv : [[ "tag id", "name", "code", "triggers", "last upated" ]],
             fileData
         }));
     })
@@ -25,6 +25,7 @@ glob("./data/*.json")
             const tags = json.containerVersion.tag;
 
             tags.forEach((tag) => {
+                const date = new Date(parseInt(tag.fingerprint)).toString().split(" GMT")[0];
                 let code;
 
                 tag.parameter.some((param) => {
@@ -37,7 +38,13 @@ glob("./data/*.json")
                     return true;
                 });
 
-                dataObj.csv.push([tag.tagId, tag.name, code, (tag.firingTriggerId || []).join("\n"), tag.fingerprint]);
+                dataObj.csv.push([
+                    tag.tagId,
+                    tag.name,
+                    code,
+                    (tag.firingTriggerId || []).join("\n"),
+                    date
+                ]);
             });
         });
 
