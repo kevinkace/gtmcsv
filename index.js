@@ -15,19 +15,30 @@ glob("./data/*.json")
     .then((f) => {
         files = f;
 
+        console.log(`Found ${f.length} files`);
+        console.log(JSON.stringify(f, null, 2));
+
         return Promise.all(f.map((file) => rfp(file, "utf8")));
     })
-    .then((fileDatas) => {
-        // let csvArr =
-        return fileDatas.map((fileData) => ({
+    .then((fileDatas) =>
+        // create obj for each file, append data
+        fileDatas.map((fileData) => ({
             csv : [[ "tag id", "name", "triggers", "last updated", "code" ]],
             fileData
-        }));
-    })
+        }))
+    )
     .then((dataObjs) => {
-        dataObjs.forEach((dataObj) => {
+        dataObjs.forEach((dataObj, idx) => {
             const json = JSON.parse(dataObj.fileData);
             const tags = json.containerVersion.tag;
+
+            if(!tags) {
+                console.log(`No tags found in ${files[idx]}`);
+
+                return;
+            }
+
+            console.log(`Found ${tags.length} tags`);
 
             tags
                 .sort((tagA, tagB) =>
@@ -35,11 +46,13 @@ glob("./data/*.json")
                 )
                 .forEach((tag) => {
                     const date = new Date(parseInt(tag.fingerprint, 10)).toString().split(" GMT")[0];
+
+                    let code;
                     let triggers = (tag.firingTriggerId || [])
                         .map((triggerId) => {
                             let trigger;
 
-                            json.containerVersion.trigger.some((trig) => {
+                            (json.containerVersion.trigger || []).some((trig) => {
                                 if(trig.triggerId !== triggerId) {
                                     return false;
                                 }
@@ -49,9 +62,8 @@ glob("./data/*.json")
 
                             return trigger;
                         }).join("\n");
-                    let code;
 
-                    tag.parameter.some((param) => {
+                    (tag.parameter || []).some((param) => {
                         if(param.type !== "TEMPLATE") {
                             return false;
                         }
@@ -77,6 +89,11 @@ glob("./data/*.json")
         Promise.all(dataObjs.map((dataObj, idx) => {
             const base = `${path.parse(files[idx]).name}.csv`;
 
-            return wfp(`./csv/${base}`, csv.stringify(dataObj.csv))
+            console.log(`Writing ${files[idx]}`);
+
+            return wfp(`./csv/${base}`, csv.stringify(dataObj.csv));
         }))
-    );
+    )
+    .then(() => {
+        console.log("DONE!");
+    });
